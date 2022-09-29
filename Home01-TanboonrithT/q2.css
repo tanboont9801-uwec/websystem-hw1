@@ -1,0 +1,50 @@
+
+.elementbox{
+    width:50%;
+    height: 200px;
+    border:1px solid black;
+    position: relative;
+
+}
+/* header in the top box */
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+/* top box with picture */
+.topbox{
+    background-image:url(https://images.unsplash.com/photo-1553526777-5ffa3b3248d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBhdHRlcm58ZW58MHx8MHx8&w=1000&q=80);
+    padding: 1px 2px 1px 2px; /* บน ขวา ล่าง ซ้าย  */
+    margin: 2px 2px 2px 2px; /* บน ขวา ล่าง ซ้าย */
+    border:1px solid;
+    align-items: center;
+}
+/* navigation box with list inside */
+.navigationbox{
+    float: left;
+    width: 40%;
+    height: 80%;
+    padding: 2px 2px;
+    margin: 1px 1px 1px 2px;
+    font-size: 10px;
+    border:1px solid black;
+    background-color: lightyellow;
+}
+/* navigation list */
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px 6px;
+}
+.contentbox{
+    float: left;
+    width: 40%;
+    height: 90%;
+    padding:2px 2px;
+    border: 2px solid black;
+    margin: 1px 1px 1px 2px;
+
+}
+p{
+    font-family: arial;
+}
