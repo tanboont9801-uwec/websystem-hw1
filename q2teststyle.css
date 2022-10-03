@@ -1,0 +1,14 @@
+
+table{
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    position: center;
+    font-size: 20px;
+    
+}
+tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    position: center;
+}
+
