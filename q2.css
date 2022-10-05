@@ -7,7 +7,7 @@
 
 }
 /* header in the top box */
-header{
+title{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 
@@ -17,14 +17,19 @@ header{
     background-image:url(https://images.unsplash.com/photo-1553526777-5ffa3b3248d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBhdHRlcm58ZW58MHx8MHx8&w=1000&q=80);
     padding: 1px 2px 1px 2px; /* บน ขวา ล่าง ซ้าย  */
     margin: 2px 2px 2px 2px; /* บน ขวา ล่าง ซ้าย */
+    height: 15%;
     border:1px solid;
-    align-items: center;
+    text-align: center;
+    
+}
+header{
+    font-size: 60px;
 }
 /* navigation box with list inside */
 .navigationbox{
     float: left;
     width: 40%;
-    height: 80%;
+    height: 83%;
     padding: 2px 2px;
     margin: 1px 1px 1px 2px;
     font-size: 10px;
@@ -35,25 +40,34 @@ header{
 ul{
     font-family: Arial, Helvetica, sans-serif;
     padding: 1px 6px;
+    font-size: 30px;
 }
 .contentbox{
-    float: left;
-    width: 40%;
-    height: 90%;
+    text-align: center;
+    width: 59%;
+    height: 83%;
     padding:2px 2px;
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 1px 1px 1px 2px;
+    float:right;
 
+}
+h1{
+    text-align: center;
 }
 p{
     font-family: arial;
+    text-align: center;
+
 }
 table{
     border: 2px solid black;
     width: 50%;
     border-collapse: collapse;
-    position: center;
+    /* default setting for middle */
+    margin:0 auto;
 }
-tr{
+tr,td{
     border:2px solid black;
+    text-align: center;
 }
